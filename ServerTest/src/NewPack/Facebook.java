@@ -35,7 +35,7 @@ public class Facebook {
 		driver.manage().window().maximize();
 		Thread.sleep(4000);
 		System.out.println("hello");
-		
+		System.out.println("New change");
 		driver.findElement(By.id("email")).sendKeys("angl.stanvi@gmail.com");
 		driver.findElement(By.id("pass")).sendKeys("SBK_sabakuch@1234");
 		Thread.sleep(3000);
