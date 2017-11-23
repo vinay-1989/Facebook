@@ -42,7 +42,7 @@ public class Facebook {
 		driver.findElement(By.id("loginbutton")).click();
 		Thread.sleep(5000);
 		// For Friend List excessive
-		System.out.println("NEw Hello");
+		System.out.println("new HELLO");
 		
 		WebElement ele=driver.findElement(By.cssSelector("div#appsNav ._bui._3-96._5pyq  li:nth-child(4)"));
 		//System.out.println(ele.getText());
