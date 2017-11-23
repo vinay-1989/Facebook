@@ -94,6 +94,10 @@ public class sample_testcase {
 	public static void c(){
 		System.out.println("c");
 	} 
+	@Test
+	public static void t(){
+		System.out.println("t");
+	}
 // @Test (priority=2)
 // public static void test(){
 //	 System.out.println("priority 2");
